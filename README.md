@@ -16,7 +16,7 @@ This script first imports all the necessary libraries and the dataset from demo_
 
 # port_2.R :
 
-This is the crux of the project. It first sets up for the portfolio optimization by calling svm_2.R (which imports packages and gives svmpreds). It also downloads Nifty50 data to compare the performance of the optimized portfolio against Nifty as the market. It then implements four different portfolio optimization schemes.
+This is the crux of the project. It first sets up for the portfolio optimization by calling svm_2.R (which imports packages and gives svmpreds). It also downloads Nifty50 data to compare the performance of the optimized portfolio against Nifty as the market. It then implements four different portfolio optimization schemes. (Stocks for (1.) and (2.) were selected based on availability of data and arbitrarily for (3.) and (4.))
 
  1. Simple Markowitz Optimization : Basic Markowitz optimization is implemented. Annotations in code are self-explanatory.
  
