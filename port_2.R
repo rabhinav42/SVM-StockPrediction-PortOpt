@@ -320,6 +320,8 @@ rets.port$ga <- cumprod(optimal_returns_comp)['2015-12-31']-1
 
 ################################################################
 
+## compare and study results ##
+
 rets.port
 vol
 as.numeric(rets.port)/as.numeric(vol)
