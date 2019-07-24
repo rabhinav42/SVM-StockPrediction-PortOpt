@@ -13,6 +13,8 @@ colnames(dailyreturns[,comp])
 retdata <- as.xts(dailyreturns[,comp])
 companies <- c("BHARTIARTL","DHFL","WIPRO","NDTV","JINDALSTEL","ICICIBANK","FEDERALBNK")
 
+## download Nifty data ##
+
 Nifty.50<-get.hist.quote(instrument = "^NSEI"
                          ,start="2014-01-01"
                          ,end="2015-12-31"
@@ -28,6 +30,8 @@ Nifty.50.full<-get.hist.quote(instrument = "^NSEI"
                               ,provider = "yahoo")
 any(is.na(Nifty.50.full))
 Nifty.50.full <- as.xts(na.omit(Nifty.50.full))
+
+## set up data for relevant companies ##
 
 retsw.1 <- data.frame()
 predretsw <- data.frame()                       ## initialize containers to store relevant variables ##
