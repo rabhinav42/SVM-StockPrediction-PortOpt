@@ -10,9 +10,11 @@ This exploratory project was done as a part of the Summer School in Mathematical
 
 # svm_2.R :
 
-This script first imports all the necessary libraries and the dataset from demo_dailydata.rda. It then implpements the function svmpreds. svmpreds takes the name (or index) of the company and the size of the training set as the input. It then uses the values of several technical indicators and the price of the stock from day (t-1) to predict the price of day (t) with a SVM(eps-regression) model. It also parallelly fits a linear model with the same features. Further, it calculates the predicted weekly returns from the predicted prices for both models. Naive model selection is done based on RMSE of the test set. The last line of the script contains a little piece of code to test correlation between the predicted returns and actual returns of the test set.
+This script first imports all the necessary libraries and the dataset from demo_dailydata.rda. It then implements the function svmpreds. svmpreds takes the name (or index) of the company and the size of the training set as the input. 
+It then uses the values of several technical indicators and the price of the stock from day (t-1) to predict the price of day (t) with a SVM(eps-regression) model. It also parallelly fits a linear model with the same features. 
+Further, it calculates the predicted weekly returns from the predicted prices for both models. Naive model selection is done based on RMSE of the test set. The last line of the script contains a little piece of code to test correlation between the predicted returns and actual returns of the test set.
 
-(Weekly returns is being calculated specifically because both models seemed to behave very poorly in the daily sense but had very significant long term performance as seen by the correlation between the actual.price and the pred.price.)
+(Weekly returns is being calculated specifically because both models seemed to behave very poorly in the daily sense but had very significant long term performance as seen by the correlation between the actual.price and the pred.price which confirms the findings of this (paper)[https://www.cs.princeton.edu/sites/default/files/uploads/saahil_madge.pdf].)
 
 # port_2.R :
 
