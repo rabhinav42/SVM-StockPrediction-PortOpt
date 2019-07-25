@@ -33,4 +33,4 @@ This is the crux of the project. It first sets up for the portfolio optimization
 
 Finally all the data about the portfolio returns, volatility etc are aggregated in the end of the script for further study and investigation.
 
-(The final plot of the values of the portfolios if 1 unit was invested in each at the start of the common test period is provided in ![Rplot.jpeg](https://github.com/rabhinav42/svm-stockforecast-port-opt/blob/master/Rplot.jpeg) where the colours are as specified in the R code.) 
+(The final plot of the values of the portfolios if 1 unit was invested in each at the start of the common test period : ![Rplot.jpeg](https://github.com/rabhinav42/svm-stockforecast-port-opt/blob/master/Rplot.jpeg) where the colours are as specified in the R code.) 
