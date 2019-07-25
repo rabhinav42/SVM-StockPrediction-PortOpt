@@ -32,3 +32,5 @@ This is the crux of the project. It first sets up for the portfolio optimization
 (Note however that to calculate the weekly returns by day (t+8) we would need the daily return of day (t+7) which is not available at day (t). So, the last two schemes implicity use future data and are not very useful in real situations, which is why it is an exploratory project. However, we may use the predicted and actual returns of the test set to get an idea of the effectiveness of the SVM model and the portfolio optimization scheme.)
 
 Finally all the data about the portfolio returns, volatility etc are aggregated in the end of the script for further study and investigation.
+
+(The final plot of the values of the portfolios if 1 unit was invested in each at the start of the common test period is provided in ![Rplot.jpeg](https://github.com/rabhinav42/svm-stockforecast-port-opt/blob/master/Rplot.jpeg) where the colours are as specified in the R code.) 
